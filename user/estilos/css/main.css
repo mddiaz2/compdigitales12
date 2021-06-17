@@ -1,0 +1,188 @@
+/*//////////////////////////////////////////////////////////////////
+[ RS PLUGIN ]*/
+/*---------------------------------------------*/
+.container {max-width: 1200px;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Form ]*/
+.contact100-form {
+  width: 100%;
+}
+
+h1,h2{
+  color: #00406E;
+}
+
+
+/*==================================================================
+    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+==================================================================*/
+
+/*==================================================================
+[ Color ]*/
+.cl0 {color: #fff;}
+
+
+/* Botón propio
+-------------------------------------------------- */
+
+/* Redefine los estilos de .btn */
+/* Modificar el texto y el color de fondo en los tres estados
+   principales del botón: default, hover y active. */
+   .btn-ttc,
+   .btn-ttc:hover,
+   .btn-ttc:active {
+     color: white;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+     background-color: #00406E;
+     border-radius: 18px;
+   }
+   
+   /* Aplicar gradientes de colores */
+   /* Nota: no se muestran aquí todos los gradientes que tendrás que
+      definir para los diferentes navegadores. */
+   .btn-ttc {
+     background-repeat: repeat-x;
+     background-image: linear-gradient(top, #009ED2 0%, #007DA7 100%);
+   }
+   
+   /* Estilos del estado :hover del botón */
+   /* Uno de los estilos más sencillos y eficaces para el estado :hover
+      consiste en subir hacia arriba ligeramente la imagen de fondo del
+      botón, pero puedes definir otros estilos adicionales si quieres. */
+   .btn-ttc:hover {
+     background-position: 0 -15px;
+     color: #01233b;
+     background-color: #F5B80F ;
+   }
+
+/*//////////////////////////////////////////////////////////////////
+[ S-Text 0 - 15 ]*/
+.s1-txt1 {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1;
+}
+
+.s1-txt2 {
+  font-size: 15px;
+  color: #846add;
+  line-height: 1.4;
+}
+
+.s1-txt3 {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.s1-txt4 {
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ M-Text 16 - 25 ]*/
+.m1-txt1 {
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.m1-txt2 {
+  font-size: 20px;
+  color: #181818;
+  line-height: 1.2;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ L-Text >= 26 ]*/
+.l1-txt1 {
+  font-size: 40px;
+  line-height: 1;
+  color: #fff;
+}
+
+
+/*==================================================================
+   SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
+==================================================================*/
+/*//////////////////////////////////////////////////////////////////
+[ Size ]*/
+.size1 {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.size2 {
+  width: 90px;
+  height: 100px;
+}
+
+.size3 {
+  min-width: 120px;
+  height: 40px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Width ]*/
+.wsize1 {
+  max-width: 100%;
+  width: 880px;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Background ]*/
+.bg0 {background-color: #fff;}
+.bg1 {background-color: rgba(255,255,255,0.8);}
+
+.bg-img1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  border-radius: 15px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Border ]*/
+.bor1 {
+  border-radius: 18px;
+}
+
+.bor2 {
+  border-bottom: 1px solid #999999;
+}
+
+
+
+/*==================================================================
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+==================================================================*/
+.where1 {
+  margin: 20px 5px 0px 5px;
+}
+
+
+
+.wrappic1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.wrappic1 img {
+  max-width: 100%;
+}
+
