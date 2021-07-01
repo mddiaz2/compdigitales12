@@ -76,8 +76,8 @@
 			</p>
 <br>
 			<div class="wrappic1">
-				<button a href="logout.php" type="button" class="btn btn-ttc">CANCELAR</button>
-				<button href="#" type="button" class="btn btn-ttc">CONTINUAR</button>
+				<button  type="button" class="btn btn-ttc" onclick="window.location.href='../user/logout.php'">CANCELAR</button>
+				<button  type="button" class="btn btn-ttc" onclick="window.location.href='../user/SimularInstrumentoPrincipal_Frm.php'">CONTINUAR</button>
 			</div>
 			<br>
 			<br>
