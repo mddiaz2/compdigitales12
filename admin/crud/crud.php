@@ -1,22 +1,39 @@
 <?php
+<<<<<<< HEAD
+require_once "Conexion.php";
+    class Crud extends Conexion{
+=======
 
 require_once "Conexion.php";
     class Crud extends Conexion{
 
 
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
         //DATOS ADMINISTRADORES
         public function mostrarDatos(){
             $sql="SELECT id,
                         email,
                         password
                 from tb_usuarios";
+<<<<<<< HEAD
+=======
 
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
             $query=Conexion::conectar()->prepare($sql);
             $query->execute();
             return $query->fetchAll();
             $query->close();
         }
         public function insertarDatos($datos){ //enviar arreglo $datos
+<<<<<<< HEAD
+            $sql="INSERT into tb_usuarios (email, password)
+                         values (:email, :password)";
+            $query= Conexion::conectar()->prepare($sql);
+            $query->bindParam(":email", $datos["email"], PDO::PARAM_STR);
+            $query->bindParam(":password", $datos["password"], PDO::PARAM_STR);
+            return $query->execute();
+            $query->close();
+=======
             
             $sql="INSERT into tb_usuarios (email, password)
                          values (:email, :password)";
@@ -32,6 +49,7 @@ require_once "Conexion.php";
 
            
 
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
         }
         public function obtenerDatos($id){
             $sql="SELECT id,
@@ -56,7 +74,10 @@ require_once "Conexion.php";
              return $query->execute();
 
              $query->close();
+<<<<<<< HEAD
+=======
 
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
         }
         public function eliminarDatos($id){
             $sql= "DELETE from tb_usuarios where id=:id";
@@ -104,7 +125,10 @@ require_once "Conexion.php";
              return $query->execute();
 
              $query->close();
+<<<<<<< HEAD
+=======
 
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
         }
         public function insertarDatosP($datos){ //enviar arreglo $datos
             
@@ -133,8 +157,12 @@ require_once "Conexion.php";
     //datos areas
     public function mostrarDatosA(){
         $sql="SELECT id_area,
+<<<<<<< HEAD
+                    area   
+=======
                     area
                     
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
             from tb_area";
 
         $query=Conexion::conectar()->prepare($sql);

@@ -76,8 +76,13 @@
 			</p>
 <br>
 			<div class="wrappic1">
+<<<<<<< HEAD
 				<button  type="button" class="btn btn-ttc" onclick="window.location.href='../user/logout.php'">CANCELAR</button>
 				<button  type="button" class="btn btn-ttc" onclick="window.location.href='../user/SimularInstrumentoPrincipal_Frm.php'">CONTINUAR</button>
+=======
+				<button a href="logout.php" type="button" class="btn btn-ttc">CANCELAR</button>
+				<button href="#" type="button" class="btn btn-ttc">CONTINUAR</button>
+>>>>>>> 49bae4deda0929eb401d5b0222962086251887c7
 			</div>
 			<br>
 			<br>
